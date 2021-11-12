@@ -1,7 +1,7 @@
 import java.lang.*;
 import java.util.*;
 
-/*class Cubiod{
+class Cubiod{
 	public static void main(String arg[]){
 		//input for sides of a the cubiod
 		int length,height,breadth;
@@ -31,27 +31,58 @@ import java.util.*;
 		
 	}
 }
-*/
+
       //INCREMENT AND DECREMENT OPERATORS
 	  
-	  class Cubiod{
-	public static void main(String arg[]){
-
-		int x = 5,y=1;
-		x++;
+//	  class Cubiod{
+//	public static void main(String arg[]){
+//
+//		int x = 5,y=1;
+//		x++;
+//		
+//		//the result for m will be 1 because m will be assigned to y:
+//		int m = y++;
+//		int f = ++y;
+//		
+//		System.out.println(x);
+//		
+//		System.out.println(m);
+//		
+//		System.out.println(f);
 		
-		//the result for m will be 1 because m will be assigned to y:
-		int m = y++;
-		int f = ++y;
 		
-		System.out.println(x);
-		
-		System.out.println(m);
-		
-		System.out.println(f);
+		/*increment/decrement can also happen to char  & bytes data types 
 		
 		
+		e.g  char a = 'A';
+				a++;
+				
+				when you print a you get 'B'
+				
+				
+				byte a = 5;
+				a++;
+				
+				when you print a you get '6'
+				
+				
+				
+				BUT 
+				
+				byte a = 5;
+				a+1;
+				
+				when you print a you get 'ERROR '  ------This is because  1 is an integer and  a is byte
+													(INCOMPATIBLE DATA TYPES);
+	*/
+				
+				
+				
+				
+				
 		
-	}
-}
+		
+		
+//	}
+//}s
 

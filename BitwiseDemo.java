@@ -1,12 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 
 /**
  *
- * @author mmutinda
+ * @author mwelu_mutinda
  */
 public class BitwiseDemo {
 
@@ -16,7 +12,7 @@ public class BitwiseDemo {
     public static void main(String args[]) {
         // TODO code application logic here
         
-        //this is done the binary form
+      /*  //this is done the binary form
         int x = 10,y=6,z,n,m;
         z=x&y;
           n=x|y;
@@ -42,11 +38,11 @@ public class BitwiseDemo {
         
         //there was a shift check from results to see how
          System.out.println(String.format("%s", Integer.toBinaryString(f))+"this is in binarry form");
-         System.out.println(String.format("%32s", Integer.toBinaryString(e))+"this is in binarry form");//32 shows the place it has moved
+         System.out.println(String.format("%32s", Integer.toBinaryString(e))+"this is in binarry form");//32 shows the place it has moved**/
          
          
          
-         //BITWISE SWAPPING
+       /*  //BITWISE SWAPPING
          
          int a =10 ,b= 15;
          
@@ -54,10 +50,33 @@ public class BitwiseDemo {
          b = a^b;
          a = a^b;
          
-         System.out.println("The value of "+a+"and"+b);
+         System.out.println("The value of "+a+"and"+b);**/
+       
+       
+       
+       //MERGING AND MASKING
+       
+       byte a = 9,b =12;
+       byte c;
+       
+       
+        System.out.println(a+"\n"+b);
+        
+        //Performing & operator to a and b thats masking
+        
+         c = (byte) ((byte)a<<4);
+       
+      
+      c=(byte)(a<<4);
+      c=(byte)(c|b);
+      
+      System.out.println((c&0b11110000)>>4);
+      System.out.println((c&0b00001111)>>4);
+      
+        
+        
          
-        
-        
+ 
         
     }
 }
